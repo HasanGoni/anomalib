@@ -5,7 +5,7 @@ Test script to verify nanochat tutorial notebook functionality
 
 import sys
 import os
-sys.path.insert(0, '/workspace/nanochat')
+sys.path.insert(0, '/workspace/nanochat_workspace/nanochat')
 
 import torch
 import numpy as np
@@ -91,7 +91,7 @@ def test_project_structure():
     print("\n📁 Testing project structure...")
     
     try:
-        nanochat_dir = Path("/workspace/nanochat")
+        nanochat_dir = Path("/workspace/nanochat_workspace/nanochat")
         
         # Check key directories
         key_dirs = ["nanochat", "scripts", "tasks", "tests"]

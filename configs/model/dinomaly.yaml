@@ -1,0 +1,17 @@
+model:
+  class_path: anomalib.models.Dinomaly
+  init_args:
+    encoder_name: dinov2reg_vit_base_14
+    bottleneck_dropout: 0.2
+    decoder_depth: 8
+
+metrics:
+  pixel:
+    - AUROC
+
+trainer:
+  gradient_clip_val: 0.1
+  num_sanity_val_steps: 0
+  max_steps: 5000
+  check_val_every_n_epoch: null
+  val_check_interval: 1000

@@ -38,6 +38,7 @@ To install Python, Git and other required tools, [OpenVINO Notebooks](https://gi
 | Notebook | GitHub                                        | Colab                                                                                                                                                                                             |
 | -------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Model    | [201_fastflow](200_models/201_fastflow.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/openvinotoolkit/anomalib/blob/main/notebooks/200_models/201_fastflow.ipynb) |
+| Dinomaly | [202_dinomaly](200_models/202_dinomaly.ipynb) |                                                                                                                                                                                                    |
 
 ## 3. OpenVINO Optimization
 

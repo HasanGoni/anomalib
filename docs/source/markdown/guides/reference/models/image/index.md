@@ -39,6 +39,13 @@ Deep Feature Kernel Density Estimation
 Probabilistic Modeling of Deep Features for Out-of-Distribution and Adversarial Detection
 :::
 
+:::{grid-item-card} {material-regular}`model_training;1.5em` Dinomaly
+:link: ./dinomaly
+:link-type: doc
+
+Dinomaly: Vision Transformer-based Anomaly Detection with Feature Reconstruction
+:::
+
 :::{grid-item-card} {material-regular}`model_training;1.5em` DRAEM
 :link: ./draem
 :link-type: doc
@@ -133,6 +140,7 @@ WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation
 ./csflow
 ./dfkde
 ./dfm
+./dinomaly
 ./draem
 ./dsr
 ./efficient_ad
